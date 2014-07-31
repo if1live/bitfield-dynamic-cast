@@ -1,0 +1,14 @@
+A - Foo
+A - Bar
+B - Bar
+B - Spam
+         dynamic_cast : 10000 = 0.006000
+bitfield_dynamic_cast : 10000 = 0.004000
+         dynamic_cast : 100000 = 0.053000
+bitfield_dynamic_cast : 100000 = 0.029000
+         dynamic_cast : 1000000 = 0.500000
+bitfield_dynamic_cast : 1000000 = 0.300000
+         dynamic_cast : 10000000 = 4.932000
+bitfield_dynamic_cast : 10000000 = 2.954000
+         dynamic_cast : 100000000 = 50.771999
+bitfield_dynamic_cast : 100000000 = 29.618000

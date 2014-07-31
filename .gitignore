@@ -19,3 +19,21 @@
 *.exe
 *.out
 *.app
+
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+*.dir/*
+*/Debug/*
+*/Release/*
+
+# CMake output
+*.vcxproj
+*.filters
+*.sln
+*.opensdf
+*.sdf
