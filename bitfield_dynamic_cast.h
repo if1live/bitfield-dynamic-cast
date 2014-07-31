@@ -28,6 +28,7 @@ namespace sora
 	};
 	template<class T, class U>
 	struct InheritanceBitField< Loki::Typelist<T, U> > {
+		static_assert((T::Mask & InheritanceBitField<U>::value) == 0, "BitMask Conflict!");
 		enum { value = T::Mask | InheritanceBitField<U>::value };
 	};
 
